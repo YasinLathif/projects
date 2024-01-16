@@ -1,0 +1,19 @@
+
+.nav-link.active {
+  font-size: large;
+  color: white !important; /* Prioritize white color */
+}
+
+.nav-link.active:hover {
+  color: aqua !important;
+}
+.desktopMenuListItem {
+  cursor: pointer;
+  margin-right: 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.desktopMenuListItem:hover {
+  color: aqua;
+  border-bottom-color: aqua;
+}

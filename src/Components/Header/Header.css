@@ -1,0 +1,30 @@
+.logo {
+  object-fit: cover;
+  margin-left: 1.5rem;
+  height: 4rem;
+  width: 70px;
+  cursor: pointer;
+}
+
+.custom-navbar {
+  background-color: var(--navbar_color);
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  color: white !important;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+
+@media(max-width: 576px) {
+  .logo {
+    margin-left: 0rem;
+    max-width: 100%;
+    width: 65px;
+    height: 42px;
+  }
+}

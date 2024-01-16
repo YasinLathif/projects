@@ -1,0 +1,192 @@
+.contact-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  color: #147efb;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+
+.contact-desc {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--body_color);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.textContainer {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 14rem;
+}
+
+.contact-info h3 {
+  color: var(--body_color);
+}
+
+.contact-icon-box {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.contact-icon-box span svg {
+  color: var(--body_color);
+  margin-right: 1.75rem;
+}
+
+.contact-icon-box .contact-info span a {
+  text-decoration: none;
+  color: var(--body_color);
+}
+
+.formContainer {
+  flex: 1;
+  position: relative;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formContainer input,
+textarea {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid var(--body_color);
+  color: var(--body_color);
+  border-radius: 5px;
+}
+
+.formContainer button {
+  color: white;
+  padding: 20px;
+  border: none;
+  background-color: var(--form_button_color);
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 7rem;
+}
+
+.centered-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.blur-background {
+  filter: blur(3px);
+  pointer-events: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  .contact {
+    height: 100%;
+    gap: 2px;
+    flex-direction: column;
+  }
+
+  .contact-title {
+    font-size: 1.7rem;
+    justify-content: center;
+  }
+
+  .contact-desc {
+    font-size: 1.3rem;
+    justify-content: center;
+  }
+
+  .contact-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-info span {
+    font-size: 0.80rem;
+  }
+
+  .textContainer {
+    margin-top: 2rem;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  .formContainer form {
+    gap: 10px;
+  }
+
+  .formContainer button {
+    padding: 10px;
+  }
+
+  .formContainer input,
+  textarea {
+    padding: 8px;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .contact {
+    height: 100%;
+    gap: 2px;
+    flex-direction: column;
+  }
+
+  .contact-title {
+    font-size: 1.7rem;
+    justify-content: center;
+  }
+
+  .contact-desc {
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+  .contact-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-info span {
+    font-size: 0.80rem;
+  }
+
+  .textContainer {
+    margin-top: 2rem;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  .formContainer form {
+    gap: 10px;
+  }
+
+  .formContainer button {
+    padding: 10px;
+  }
+
+  .formContainer input,
+  textarea {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {}

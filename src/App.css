@@ -1,0 +1,11 @@
+.container-lg {
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 4rem!important;
+}
+
+@media (max-width: 460px){
+  .container-lg {
+    padding: 0 1.5rem!important;
+}
+}

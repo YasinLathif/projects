@@ -1,0 +1,26 @@
+:root {
+  --body_background: #fff;
+  --body_color: black;
+  --navbar_color: #007bff;
+  --form_button_color: #007bff;
+  --social_icon_color: #2d2e32;
+  --home_photo_border_color: #000000;
+  --navbar_toggler_icon_color: #007bff;
+  --about_content_text_color: #767676;
+  --project_content_text_color: #767676;
+}
+[data-theme='dark'] {
+  --body_background: #000000;
+  --navbar_color: #1d1e1f;
+  --body_color: #d5d6d7;
+  --form_button_color: #1d1e1f;
+  --social_icon_color: #fff;
+  --home_photo_border_color: #fff;
+  --navbar_toggler_icon_color: #d5d6d7;
+  --about_content_text_color: #bebbbb;
+  --project_content_text_color: #bebbbb;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
