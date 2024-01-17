@@ -28,9 +28,8 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg shadow-sm fixed-top custom-navbar">
         <div className="container-fluid">
           <a href="/" className='text-decoration-none text-white'>
-            <div className='d-flex align-items-center'>
+            <div className='image-container'>
               <img src={logo} alt="logo img-fluid" className="navbar-brand logo" />
-              <h3 className="mx-1">Yasin.dev</h3>
             </div>
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

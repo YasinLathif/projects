@@ -1,9 +1,22 @@
-.logo {
+/* .logo {
   object-fit: cover;
   margin-left: 1.5rem;
   height: 4rem;
-  width: 70px;
+  width: 3rem;
   cursor: pointer;
+} */
+
+.image-container {
+  max-width: 300px; /* Set the maximum width for the container */
+  max-height: 200px; /* Set the maximum height for the container */
+  overflow: hidden; 
+  cursor: pointer;/* Hide any overflow to prevent breaking the layout */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the container's width */
+  height: 4.75rem; /* Maintain the aspect ratio */
+  display: block; /* Remove any extra spacing beneath the image */
 }
 
 .custom-navbar {
